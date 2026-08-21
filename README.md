@@ -8,6 +8,7 @@
 | --- | -- |
 | [Magic Link SSO](https://github.com/magic-link-sso/magic-sso) | Passwordless sign-in for self-hosted apps. |
 | [DUD](https://github.com/wojciechpolak/dud) | Discreet end-to-end encrypted file handoff, Cloudflare or self-hosted. |
+| [dproxy](https://github.com/wojciechpolak/dproxy) | Discreet HTTPS and WebSocket proxy over an ECH-protected WSS relay. |
 | [gLifestream](https://github.com/wojciechpolak/glifestream) | A free lifestream platform and social activity reader. |
 | [Time Tracker](https://github.com/wojciechpolak/time-tracker) | PWA for time tracking with multiple stopwatches. |
 | [On This Day](https://github.com/wojciechpolak/on-this-day) | PWA that resurfaces calendar events from previous years. |
