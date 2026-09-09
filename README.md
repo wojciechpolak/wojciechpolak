@@ -15,7 +15,7 @@
 | [Daily Echoes](https://github.com/wojciechpolak/obsidian-daily-echoes) | Obsidian plugin surfacing your daily notes from previous years. |
 | [YACT](https://github.com/wojciechpolak/yact) | Yet Another Countdown Timer — customizable countdown PWA. |
 | [RetroFlops](https://github.com/retroflops/retroflops) | Compare historic and modern computers, consoles, CPUs and GPUs. |
-| [clocwork](https://github.com/wojciechpolak/clocwork) | Counts lines of code across your projects with cloc and renders one combined report as TXT, Markdown, HTML and SVG cards. |
+| [clocwork](https://github.com/wojciechpolak/clocwork) | Counts lines of code across your projects with cloc and renders one combined report. |
 | [WebXiangpianbu](https://github.com/wojciechpolak/webxiangpianbu) | A photo album organizer. |
 | [Cheetah News](https://github.com/wojciechpolak/cheetah-news) | Web-based personal news aggregator. |
 | [vcstreak](https://github.com/wojciechpolak/vcstreak) | Finds the longest streak of consecutive commits. |
