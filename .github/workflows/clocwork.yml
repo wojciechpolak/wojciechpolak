@@ -50,10 +50,8 @@ jobs:
       # layout and by multiply, so one call writes four files. Only the ones
       # README.md embeds are committed, so out is gitignored and the step
       # after this one copies from it.
-      #
-      # TODO: switch to @v0 once a clocwork release carrying action.yml exists.
       - name: Count
-        uses: wojciechpolak/clocwork@main
+        uses: wojciechpolak/clocwork@v1
         with:
           config: projects.toml
           cache: .clocwork-cache
