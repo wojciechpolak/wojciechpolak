@@ -1,0 +1,107 @@
+# What the cards in README.md count.
+#
+# Every entry is a clone URL, so nothing has to be checked out: clocwork clones
+# each one shallowly into .clocwork-cache and fetches the one commit that moved
+# on every run after. See .github/workflows/clocwork.yml.
+#
+# `name` is what the cards show and `url` makes it a link in the Markdown
+# report. Neither is derived from the clone URL, so a project can be called
+# whatever it is called.
+
+[defaults]
+# Lock files are git-tracked, so they count by default and dominate the totals.
+# package-lock.json alone runs to tens of thousands of "JSON" lines.
+exclude_langs = ["JSON"]
+
+[cli]
+# Drop the generated-at stamp, which is otherwise the only thing a rerun over
+# unchanged code changes by itself. The cards then depend on the counts alone,
+# so the weekly job commits when the code moved and stays quiet when it did
+# not. It sits here rather than in the workflow because both steps read this
+# file, and because a scheduled run sets this once and forgets it.
+date = "month"
+
+[[project]]
+repo = "https://github.com/magic-link-sso/magic-sso.git"
+name = "Magic Link SSO"
+url = "https://github.com/magic-link-sso/magic-sso"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/dud.git"
+name = "DUD"
+url = "https://github.com/wojciechpolak/dud"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/dproxy.git"
+name = "dproxy"
+url = "https://github.com/wojciechpolak/dproxy"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/time-tracker.git"
+name = "Time Tracker"
+url = "https://github.com/wojciechpolak/time-tracker"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/on-this-day.git"
+name = "On This Day"
+url = "https://github.com/wojciechpolak/on-this-day"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/yact.git"
+name = "YACT"
+url = "https://github.com/wojciechpolak/yact"
+
+[[project]]
+repo = "https://github.com/retroflops/retroflops.git"
+name = "RetroFlops"
+url = "https://github.com/retroflops/retroflops"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/clocwork.git"
+name = "clocwork"
+url = "https://github.com/wojciechpolak/clocwork"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/obsidian-daily-echoes.git"
+name = "Daily Echoes"
+url = "https://github.com/wojciechpolak/obsidian-daily-echoes"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/glifestream.git"
+name = "gLifestream"
+url = "https://github.com/wojciechpolak/glifestream"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/webxiangpianbu.git"
+name = "WebXiangpianbu"
+url = "https://github.com/wojciechpolak/webxiangpianbu"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/vcstreak.git"
+name = "vcstreak"
+url = "https://github.com/wojciechpolak/vcstreak"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/cbot.git"
+name = "cbot"
+url = "https://github.com/wojciechpolak/cbot"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/cheetah-news.git"
+name = "Cheetah News"
+url = "https://github.com/wojciechpolak/cheetah-news"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/anubis.git"
+name = "Anubis"
+url = "https://github.com/wojciechpolak/anubis"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/imm.git"
+name = "IMM"
+url = "https://github.com/wojciechpolak/imm"
+
+[[project]]
+repo = "https://github.com/wojciechpolak/wcomp.git"
+name = "wcomp"
+url = "https://github.com/wojciechpolak/wcomp"

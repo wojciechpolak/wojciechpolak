@@ -31,3 +31,13 @@
 | [Mailutils](https://mailutils.org/) | Suite of utilities for electronic mail; worked on various parts. |
 | [Bison](https://www.gnu.org/software/bison/) | Designed and implemented the XML Automaton Report and its XSLTs. |
 | [Dico](https://www.gnu.org/software/dico/) | Modular DICT server; added the Python module, the Dicoweb interface. |
+
+### Lines of code
+
+![Lines of code by language](assets/cw-bars-languages.svg)
+
+![Lines of code by project](assets/cw-strip-projects.svg)
+
+Counted across the repositories above with
+[clocwork](https://github.com/wojciechpolak/clocwork) and redrawn monthly by
+[this workflow](https://github.com/wojciechpolak/clocwork/blob/main/examples/clocwork.yml).

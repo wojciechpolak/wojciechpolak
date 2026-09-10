@@ -1,0 +1,8 @@
+# Shallow clones clocwork keeps between runs. The workflow caches this
+# directory; nothing in it belongs in git.
+.clocwork-cache/
+
+# Where the cards are drawn. One run writes every layout crossed with every
+# subject, and the workflow copies the two the README embeds into assets/, so
+# that directory holds exactly what git tracks.
+.clocwork-out/
